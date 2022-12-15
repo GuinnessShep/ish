@@ -10,3 +10,4 @@ jobs:
       run: curl -d {} $NETLIFY_DEPLOY_HOOK
       env:
         NETLIFY_DEPLOY_HOOK: ${{ secrets.NETLIFY_DEPLOY_HOOK }}
+#
